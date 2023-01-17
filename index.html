@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b63f19595b.js"crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sneakers</title>
+  </head>
+
+  <body>
+    
+
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bolder" href="#" data-aos="slide-left" data-aos-duration="700">SNEAKERS</a>
+        <button
+          class="navbar-toggler"type="button"data-bs-toggle="collapse"data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"aria-expanded="false"aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse container justify-content-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link links" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#">SHOP</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link links" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link links" href="#"> CONTACT </a>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end me-4">
+          <a href="" class="icons p-2" id="sear-btn"><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="" class="icons p-3"><i class="fa-solid fa-user"></i></a>
+          <a href="" class="icons p-2"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </nav>
+<!-- Navbar Ends -->
+
+<div id="sear">
+  <input type="text" placeholder="search">
+</div>
+
+
+<!-- carousel Starts -->
+
+    <div id="carouselExampleCaptions"class="carousel slide"data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"class="active"aria-current="true"aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"data-bs-target="#carouselExampleCaptions"data-bs-slide-to="1"aria-label="Slide 2"></button>
+        <button type="button"data-bs-target="#carouselExampleCaptions"data-bs-slide-to="2"aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/homepagemowingfreeze-fe84f31f60.jpg" class="d-block w-100" alt="..."
+          />
+          <div class="carousel-caption d-md-block" data-aos="slide-up">
+            <p>THE BEST</p>
+            <h1>SNEAKERS
+            <br />
+            ONLINE</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/countryside-field-footwear-grass.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <p>THE BEST</p>
+            <h1>SNEAKERS<br />ONLINE
+            </h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/fantasy-art-nature-photoshop-shoes-wallpaper.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <p>THE BEST</p>
+            <h1>SNEAKERS <br> ONLINE</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Carousal Ends -->
+
+    <!-- Cards Section 1 Starts -->
+
+    <div class="container text-center mt-5">
+      <div class="row">
+        <div class="col mt-3 col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-body rounded" data-aos="flip-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="card-body bg-dark text-light ">
+              <h3>SNEAKERS</h3>
+              <h5 class="card-title">
+                GET 20%<br />OFF
+              </h5>
+              <button class="button">SHOP NOW</button>
+
+            </div>
+            <img
+              src="img/eTag-Mens-Foot-Wears-Jogers-Shoes-Jump-Green-Line-2911-01.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+          </div>
+        </div>
+        <div class="col mt-3 col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-body rounded" data-aos="flip-down" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <img
+              src="img/jeff-tumale-SD9Jyl1xNQ4-unsplash.jpg"class=" card-img-top" alt="..." />
+            <div class="card-body">
+              <h3>SNEAKERS</h3>
+              <h5 class="card-title">
+                GET 20% <br />OFF
+              </h5>
+             <button class="center-btn">SHOP NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-3 col-12 col-sm-4 col-md-4 col-lg-4">
+          <div class="card shadow p-3 mb-5 bg-body rounded" data-aos="flip-up" data-aos-duration="500"
+          data-aos-easing="ease-in-out">
+            <div class="card-body bg-dark text-light">
+                <h3>SNEAKERS</h3>
+                <h5 class="card-title">
+                  GET 20% <br />
+                  OFF
+                </h5>
+                <button class="button">SHOP NOW</button>   
+            </div>
+            <img
+            src="img/-473Wx593H-469034062-black-MODEL4.jpg"class=" card-img-top"alt="..."/>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Cards Section 1 Ends -->
+
+<!-- Icons Section Starts -->
+    <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col col-6 col-sm-6 col-md-6 col-lg-3 icon-col " data-aos="slide-up">
+            <img src="img/fast-delivery.png" style="width:60%" alt="">
+            <p data-aos="flip-right">lorem Ipsum</p>
+          </div>
+          <div class="col col-6 col-sm-6 col-md-6 col-lg-3 icon-col" data-aos="slide-up">
+            <img src="img/wallet.png" style="width:60%" alt="">
+            <p data-aos="flip-right">lorem Ipsum</p>
+          </div >
+          <div class="col col-6 col-sm-6 col-md-6 col-lg-3 icon-col" data-aos="slide-up">
+            <img src="img/shield.png"  style="width:60%" alt="">
+            <p data-aos="flip-right">lorem Ipsum</p>
+          </div>
+          <div class="col col-6 col-sm-6 col-md-6 col-lg-3" data-aos="slide-up">
+            <img src="img/customer-service.png" style="width:60%"  alt="">
+            <p data-aos="flip-right">lorem Ipsum</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 justify-content-center " data-aos="flip-left">
+        <h4 class="head-4">EXTRA 5% OFF Sale Style Using " <span class="text-warning"> ONLINESNAKERS</span>"</h4>
+      </div>
+
+      <div class="container mt-5">
+        <h2 class="fw-bold text-center"><span class="text-warning">FEATURED</span> PRODUCT</h2>
+      </div>
+      <!-- Icons Section End -->
+
+      <!-- Cards Section 2 Starts -->
+      <div class="container text-center mt-5">
+        <div class="row" data-aos="flip-up" data-aos-duration="500" data-aos-easing="ease-in-out">
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card">
+                <img src="img/card-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold">Rs. 1800 </p>
+                  <button class="center-btn">Order Now</button>
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card">
+                <img src="img/card-2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold">Rs. 2000</p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card" >
+                <img src="img/catd-3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold">Rs. 2100</p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card">
+                <img src="img/card-4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold">Rs. 2500</p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- Cards Section 2 Ends -->
+
+      <!-- banner Image Section Starts -->
+
+      <div class="card text-bg-dark mt-5" data-aos="slide-up" data-aos-duration="700">
+        <img src="img/rahul-chandra-nike-show.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h3 class="card-title poster-heading">ATHELETIC KICKS</h3>
+          <h1 class="card-text poster-heading2">SALE</h1>
+          <h2 class="card-text text-warning">Get Upto 50% OFF!</h2>
+        </div>
+      </div>
+       
+    <!-- Banner Image Section Ends   -->
+      
+      
+      <div class="container mt-5 ">
+        <h2 class="fw-bold text-center"><span class="text-warning">SALE</span> PRODUCT</h2>
+      </div>
+
+      <!-- Crads Section Discounted Starts -->
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card" data-aos="flip-right">
+                <img src="img/card-5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold"><del>RS. 2400</del><br><ins class="fs-5">Rs. 1800</ins> </p>
+                  <button class="center-btn">Order Now</button>
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card"  data-aos="flip-right">
+                <img src="img/card-6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold"><del>RS. 2200</del><br><ins class="fs-5">Rs. 1500</ins> </p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card"  data-aos="flip-right">
+                <img src="img/card-7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold"><del>RS. 2000</del><br><ins class="fs-5">Rs. 1200</ins> </p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+          <div class="col col-12 col-sm-6 col-md-3 col-lg-3">
+            <div class="card"  data-aos="flip-right">
+                <img src="img/card-8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Stylish and Best Models of Shoes For Men</h6>
+                  <p class="card-text text-danger fw-bold"><del>RS. 1900</del><br><ins class="fs-5">Rs. 1000</ins> </p>
+                  <button class="center-btn">Order Now</button>
+
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards Section Discounted Ends -->
+
+
+      <div class="container text-center">
+        <div class="row">
+          <div class="col col-lg-6 col-md-6 col-sm-6 col-12" data-aos="flip-right">
+            <div class="card">
+              
+              <img  src="img/left.jpg" class="w-100 h-100 left-image" alt="">
+            
+            <div id="left-img-text" >
+              <h3>price 3000 rupees</h3>
+              <button class="image-buttons">Order Now</button>
+           </div>
+          </div>
+        </div>
+            
+        
+        <div class="col col-lg-6 col-md-6 col-sm-6 col-12" data-aos="flip-left">
+            <div class="card">
+            <img  src="img/left.jpg" class="w-100 h-100 left-image" alt="">
+            
+            <div id="left-img-text" >
+              <h3>price 3000 rupees</h3>
+              <button  class="image-buttons">Order Now</button>
+           </div>
+          </div>
+        </div>
+          
+      <div class="mt-5">
+<canvas>
+  
+</canvas>
+      </div>
+
+      <footer class="footer-section ">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="https://i.ibb.co/QDy827D/ak-logo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      </script>
+
+     
+  </body>
+</html>
